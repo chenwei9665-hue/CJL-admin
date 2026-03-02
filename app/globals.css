@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-slate-100 text-slate-900 antialiased;
+  background-image: radial-gradient(circle at top, #f8fafc 0%, #f1f5f9 45%, #eef2f7 100%);
+}
+
+@layer components {
+  .page-wrap {
+    @apply space-y-8;
+  }
+
+  .panel {
+    @apply rounded-2xl border border-slate-200/80 bg-white/95 shadow-[0_8px_30px_rgba(15,23,42,0.05)] backdrop-blur-sm;
+  }
+
+  .panel-soft {
+    @apply rounded-2xl border border-slate-200/70 bg-slate-50/70;
+  }
+
+  .interactive-card {
+    @apply transition-all duration-200 ease-out hover:-translate-y-0.5 hover:shadow-[0_12px_26px_rgba(15,23,42,0.08)] hover:border-slate-300;
+  }
+
+  .section-kicker {
+    @apply text-[11px] font-semibold uppercase tracking-[0.14em] text-slate-500;
+  }
+
+  .section-title {
+    @apply text-xl font-semibold tracking-tight text-slate-900;
+  }
+
+  .muted {
+    @apply text-sm leading-7 text-slate-600;
+  }
+
+  .btn-secondary {
+    @apply rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-sm text-slate-700 transition hover:border-slate-300 hover:bg-slate-50 active:scale-[0.99];
+  }
+
+  .status-pill {
+    @apply rounded-full px-2.5 py-1 text-xs font-semibold;
+  }
+}
