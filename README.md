@@ -39,6 +39,31 @@ npm run dev
 - 文案细节继续精修，提升汇报语气的专业度与自然度
 - 交互细节轻量优化：hover/active 反馈更清晰、状态表达更直观
 
+
+## SWC 启动故障排查（macOS 常见）
+
+如果遇到类似报错：
+
+`Failed to load SWC binary for darwin/x64`
+或
+`segment '__TEXT' load command content extends beyond end of file`
+
+通常是本地 `@next/swc-*` 二进制包损坏。项目已内置 `postinstall` 自动修复脚本（`scripts/repair-swc.mjs`），会在安装依赖时检测并重装当前平台的 SWC 包。
+
+如仍失败，可手动执行：
+
+```bash
+rm -rf node_modules package-lock.json
+npm cache clean --force
+npm install
+```
+
+如果是 Intel Mac（darwin/x64），也可显式重装：
+
+```bash
+npm install --no-save @next/swc-darwin-x64@14.2.5
+```
+
 ## 页面说明
 
 ### 1) `/dashboard` 今日经营简报
