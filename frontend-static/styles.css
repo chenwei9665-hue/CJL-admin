@@ -1,0 +1,105 @@
+:root {
+  font-family: "PingFang SC", "Microsoft YaHei", system-ui, -apple-system, sans-serif;
+}
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #dbeafe 0%, #f8fafc 100%);
+}
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+.phone {
+  width: min(430px, 95vw);
+  height: min(860px, 95vh);
+  display: grid;
+  grid-template-rows: auto 1fr auto auto;
+  background: #f8fafc;
+  border-radius: 24px;
+  box-shadow: 0 24px 60px rgba(30, 41, 59, 0.25);
+  overflow: hidden;
+}
+.header {
+  color: #fff;
+  background: #0f172a;
+  padding: 14px 16px;
+}
+.header h1 { margin: 0; font-size: 20px; }
+.header p { margin: 6px 0 0; font-size: 13px; opacity: .9; }
+.messages {
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px;
+}
+.card, .bubble {
+  border-radius: 14px;
+  padding: 10px 12px;
+  max-width: 88%;
+  line-height: 1.45;
+}
+.card {
+  background: #fff;
+  border: 1px solid #dbeafe;
+}
+.card .type {
+  display: inline-block;
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-bottom: 5px;
+  background: #e0f2fe;
+  color: #0c4a6e;
+}
+.card.alert { background: #fff1f2; border-color: #fecdd3; }
+.card h3 { margin: 0 0 5px; font-size: 14px; }
+.card small { color: #64748b; display: block; margin-top: 6px; }
+.bubble.user {
+  margin-left: auto;
+  background: #22c55e;
+  color: #fff;
+}
+.bubble.assistant {
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+}
+.quick {
+  display: flex;
+  gap: 8px;
+  overflow: auto;
+  padding: 10px;
+}
+.quick button {
+  border: none;
+  border-radius: 999px;
+  padding: 8px 12px;
+  background: #dbeafe;
+  color: #1d4ed8;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.input-area {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 8px;
+  padding: 10px;
+  border-top: 1px solid #e2e8f0;
+  background: #fff;
+}
+input {
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  padding: 10px;
+}
+#sendBtn {
+  border: none;
+  border-radius: 10px;
+  background: #2563eb;
+  color: #fff;
+  padding: 0 16px;
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+[
+  {"employee":"张敏","month":"2025-01","base_salary":18000,"bonus":2500,"deduction":1200,"net_salary":19300,"department":"运营"},
+  {"employee":"张敏","month":"2025-02","base_salary":18000,"bonus":3000,"deduction":900,"net_salary":20100,"department":"运营"},
+  {"employee":"张敏","month":"2025-03","base_salary":18000,"bonus":2800,"deduction":1000,"net_salary":19800,"department":"运营"},
+  {"employee":"李强","month":"2025-01","base_salary":22000,"bonus":3500,"deduction":1600,"net_salary":23900,"department":"销售"},
+  {"employee":"李强","month":"2025-02","base_salary":22000,"bonus":4200,"deduction":1700,"net_salary":24500,"department":"销售"},
+  {"employee":"李强","month":"2025-03","base_salary":22000,"bonus":3900,"deduction":1500,"net_salary":24400,"department":"销售"},
+  {"employee":"王芳","month":"2025-01","base_salary":16000,"bonus":1800,"deduction":700,"net_salary":17100,"department":"财务"},
+  {"employee":"王芳","month":"2025-02","base_salary":16000,"bonus":2100,"deduction":800,"net_salary":17300,"department":"财务"},
+  {"employee":"王芳","month":"2025-03","base_salary":16000,"bonus":2400,"deduction":900,"net_salary":17500,"department":"财务"}
+]
