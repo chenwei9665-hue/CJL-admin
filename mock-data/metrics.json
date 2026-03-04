@@ -1,0 +1,20 @@
+[
+  {"date":"2025-02-01","week":"2025-W05","month":"2025-02","platform":"天猫","store":"天猫旗舰店","sku":"SKU-1001","revenue":6800,"cost":3900,"expense":1200,"profit":1700,"sales":85},
+  {"date":"2025-02-01","week":"2025-W05","month":"2025-02","platform":"抖音","store":"抖音直播店","sku":"SKU-1001","revenue":5900,"cost":3400,"expense":1500,"profit":1000,"sales":79},
+  {"date":"2025-02-01","week":"2025-W05","month":"2025-02","platform":"京东","store":"京东自营店","sku":"SKU-2002","revenue":4200,"cost":2500,"expense":900,"profit":800,"sales":46},
+  {"date":"2025-02-08","week":"2025-W06","month":"2025-02","platform":"天猫","store":"天猫旗舰店","sku":"SKU-1001","revenue":7200,"cost":4100,"expense":1300,"profit":1800,"sales":92},
+  {"date":"2025-02-08","week":"2025-W06","month":"2025-02","platform":"抖音","store":"抖音直播店","sku":"SKU-2002","revenue":6400,"cost":3600,"expense":1600,"profit":1200,"sales":83},
+  {"date":"2025-02-08","week":"2025-W06","month":"2025-02","platform":"京东","store":"京东自营店","sku":"SKU-3003","revenue":4600,"cost":2700,"expense":900,"profit":1000,"sales":51},
+  {"date":"2025-02-15","week":"2025-W07","month":"2025-02","platform":"天猫","store":"天猫旗舰店","sku":"SKU-3003","revenue":7600,"cost":4300,"expense":1400,"profit":1900,"sales":96},
+  {"date":"2025-02-15","week":"2025-W07","month":"2025-02","platform":"抖音","store":"抖音直播店","sku":"SKU-1001","revenue":6700,"cost":3800,"expense":1700,"profit":1200,"sales":84},
+  {"date":"2025-02-15","week":"2025-W07","month":"2025-02","platform":"京东","store":"京东自营店","sku":"SKU-2002","revenue":5000,"cost":2900,"expense":1000,"profit":1100,"sales":57},
+  {"date":"2025-02-22","week":"2025-W08","month":"2025-02","platform":"天猫","store":"天猫旗舰店","sku":"SKU-1001","revenue":8100,"cost":4600,"expense":1600,"profit":1900,"sales":102},
+  {"date":"2025-02-22","week":"2025-W08","month":"2025-02","platform":"抖音","store":"抖音直播店","sku":"SKU-2002","revenue":7100,"cost":3900,"expense":1900,"profit":1300,"sales":91},
+  {"date":"2025-02-22","week":"2025-W08","month":"2025-02","platform":"京东","store":"京东自营店","sku":"SKU-3003","revenue":5400,"cost":3000,"expense":1100,"profit":1300,"sales":60},
+  {"date":"2025-03-01","week":"2025-W09","month":"2025-03","platform":"天猫","store":"天猫旗舰店","sku":"SKU-1001","revenue":8600,"cost":4800,"expense":1500,"profit":2300,"sales":108},
+  {"date":"2025-03-01","week":"2025-W09","month":"2025-03","platform":"抖音","store":"抖音直播店","sku":"SKU-2002","revenue":7600,"cost":4100,"expense":1800,"profit":1700,"sales":95},
+  {"date":"2025-03-01","week":"2025-W09","month":"2025-03","platform":"京东","store":"京东自营店","sku":"SKU-3003","revenue":5900,"cost":3200,"expense":1200,"profit":1500,"sales":67},
+  {"date":"2025-03-08","week":"2025-W10","month":"2025-03","platform":"天猫","store":"天猫旗舰店","sku":"SKU-1001","revenue":9000,"cost":5000,"expense":1600,"profit":2400,"sales":113},
+  {"date":"2025-03-08","week":"2025-W10","month":"2025-03","platform":"抖音","store":"抖音直播店","sku":"SKU-2002","revenue":8000,"cost":4300,"expense":2000,"profit":1700,"sales":101},
+  {"date":"2025-03-08","week":"2025-W10","month":"2025-03","platform":"京东","store":"京东自营店","sku":"SKU-3003","revenue":6200,"cost":3300,"expense":1200,"profit":1700,"sales":70}
+]

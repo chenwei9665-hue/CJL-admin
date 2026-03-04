@@ -1,0 +1,5 @@
+[
+  {"sku":"SKU-1001","name":"维C泡腾片","current_stock":980,"last_7_days_sales":[130,120,115,140,125,118,132],"safety_stock":300},
+  {"sku":"SKU-2002","name":"益生菌固体饮料","current_stock":640,"last_7_days_sales":[82,90,88,95,86,92,89],"safety_stock":220},
+  {"sku":"SKU-3003","name":"胶原蛋白饮","current_stock":420,"last_7_days_sales":[58,61,54,60,57,55,62],"safety_stock":160}
+]

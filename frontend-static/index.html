@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>虚拟 CFO 演示版</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="phone">
+        <header class="header">
+          <h1>虚拟 CFO 演示版</h1>
+          <p>老板微信工作台（零依赖本地版）</p>
+        </header>
+
+        <main id="messages" class="messages"></main>
+
+        <section class="quick">
+          <button data-question="上周天猫店收入是多少？">上周天猫收入</button>
+          <button data-question="2月抖音店利润是多少？">2月抖音利润</button>
+          <button data-question="SKU-2002 本月成本是多少？">SKU 成本</button>
+          <button data-question="李强 2月工资条">工资条</button>
+          <button data-question="SKU-1001 库存还能卖几天？">库存可售天数</button>
+        </section>
+
+        <footer class="input-area">
+          <input id="questionInput" placeholder="请输入：如 2月抖音店利润是多少？" />
+          <button id="sendBtn">发送</button>
+        </footer>
+      </div>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
